@@ -6,11 +6,11 @@ require 'capistrano-lazy-assets/version'
 Gem::Specification.new do |gem|
   gem.name = 'capistrano-lazy-assets'
   gem.version = Capistrano::Lazy::Assets::VERSION
-  gem.authors = ['test']
-  gem.email = ['test@example.com']
-  gem.description = %q{Write a gem description}
-  gem.summary = %q{Write a gem summary}
-  gem.homepage = ''
+  gem.authors = ['Alexei Lexx']
+  gem.email = ['alexei.lexx@gmail.com']
+  gem.description = %q{Skipping asset pre-compilation if there are no changes}
+  gem.summary = %q{Skipping asset pre-compilation if there are no changes}
+  gem.homepage = 'https://github.com/alexei-lexx/capistrano-lazy-assets'
 
   gem.files = `git ls-files`.split($/)
   gem.executables = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
