@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version = Capistrano::Lazy::Assets::VERSION
   gem.authors = ['test']
   gem.email = ['test@example.com']
-  gem.description = %q{TODO: Write a gem description}
-  gem.summary = %q{TODO: Write a gem summary}
+  gem.description = %q{Write a gem description}
+  gem.summary = %q{Write a gem summary}
   gem.homepage = ''
 
   gem.files = `git ls-files`.split($/)
