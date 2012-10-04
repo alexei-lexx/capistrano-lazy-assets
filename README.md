@@ -1,6 +1,6 @@
 # Capistrano::Lazy::Assets
 
-Receipt is given from http://www.bencurtis.com/2011/12/skipping-asset-compilation-with-capistrano/
+Receipt is taken from http://www.bencurtis.com/2011/12/skipping-asset-compilation-with-capistrano/
 
 ## Installation
 
